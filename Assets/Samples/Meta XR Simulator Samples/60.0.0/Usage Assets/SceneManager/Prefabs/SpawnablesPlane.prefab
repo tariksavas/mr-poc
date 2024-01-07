@@ -68,7 +68,7 @@ MonoBehaviour:
       type: 3}
     ClassificationLabel: CEILING
     _editorClassificationIndex: 1
-  - ResizablePrefab: {fileID: 1472229430556979971, guid: 590109f0a8df08a468f3a4c4dcb488e9,
+  - ResizablePrefab: {fileID: 7329915652745048277, guid: d3d1448f3ff154440b5c5b19ba9235ea,
       type: 3}
     ClassificationLabel: WALL_FACE
     _editorClassificationIndex: 2
