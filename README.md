@@ -22,12 +22,21 @@ Depth, room setup, wall and furniture detection and colliders were tested in the
 8. Drag and drop **OVRSceneManager** to the scene
 9. Assign OVRSceneAnchor references. (I assigned InvisiblePlane and InvisibleVolume)
 10. Add PrefabOverrides if you want
-11. Create an empty object in the scene and add **EnvironmentDepthTextureProvider** and **EnvironmentDepthOcclusionController** component to it.
+11. Create an empty object in the scene and add **EnvironmentDepthTextureProvider** and **EnvironmentDepthOcclusionController** components
 12. Set the Occlusion Type in EnvironmentDepthOcclusionController No Occclusion to **Soft Occlusion**
 13. Replace the shader of the materials you want to have depth with Depth API shaders.
 
 # Results
+1. Mixed Reality environment has been successfully provided.
+2. Depth perception is not perfect but good.
+3. The scene setup in native was successfully started from the developed application.
+4. Walls and furnitures were successfully separated.
+5. Objects were placed on the scene without any problems.
+6. As a result, all requirements were met.
+
 # Conclusion
+These SDKs have very detailed features and interactions with Meta Quest 3 but Depth perception is not very stable. In depth perception, gaps occur between objects and a perfect separation is not observed.
+
 # Links
 - [Meta MR Utility Kit](https://assetstore.unity.com/packages/tools/integration/meta-mr-utility-kit-272450)
 - [Meta XR Core SDK](https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169)
